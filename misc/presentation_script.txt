@@ -27,7 +27,7 @@ Presentation Script ver Epsilonδ
       The data, however, is imperfect and limitations should be acknowledged.
       For example, the data is limited in size. The dataset contains 2000 songs, which may not be representative of the entire Spotify catalog. Also, the data is not spread evenly across time. Generalizations should be made cautiously.
       The dataset also groups many genres together, and may not cover all genres or sub-genres, potentially limiting the diversity of the analysis. For example, differences between metal and pop rock are not accounted for, and are grouped together. 
-      There also exists cultural shifts, as mentioned before, music changes over time as musical tastes and genres evolve. The analysis has to be mindful of cultural shifts and how they may impact the characteristics of the songs over the years.
+      There also exists cultural shifts, as mentioned before, music changes over time as musical tastes and genres evolve. The analysis has to be mindful of cultural shifts and how they may impact characteristics of the songs over the years.
       Another factor to consider are qualitaive aspects  of a song's appeal, such as lyrics or cultural context. This could limit the depth of analysis because they are not numerical factors.
       Lastly, this dataset only lists 'top' songs, and might not capture individual user preferences or the influence of social networks on music choices. 
 
