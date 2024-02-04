@@ -15,7 +15,7 @@ Presentation Script ver Epsilonδ
       We chose this topic because music is an integral part of our society that reflects and influences culture. Our presentation is a small glimpse into some of the music trends that have occurred in the past two decades. 
 
 -----Data Sources----- Jackie
-      We used 'Top Hits Spotify from 2000-2019' from Kaggle for our analysis. This dataset has statistics of the top 2,000 tracks from between 1998 and 2020. It contains 18 columns that breaka down each track, such as song duration, tempo (aka beats per minute or bpm), and loudness (measured in decibles).
+      We used 'Top Hits Spotify from 2000-2019' from Kaggle for our analysis. This dataset has statistics of the top 2,000 tracks from between 1998 and 2020. It contains 18 columns that break down each track, such as song duration, tempo (aka beats per minute or bpm), and loudness (measured in decibles).
 
 -----Project Goals----- Jackie
       To begin, our overall objective was to analyze the dataset for patterns and trends. What was the data saying by itself before we looked for specific metrics? Did anything stand out? We used the variables provided, such as speechiness, acousticness, energy, etcetera and grouped them by year and genre. 
