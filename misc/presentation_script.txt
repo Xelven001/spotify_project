@@ -37,24 +37,20 @@ Presentation Script ver Epsilonδ
 
 ----Visualizations----- Carlos
       The visualizations were created through three applications and established through chart.js [ explain about chart.js ]
-      Each chart is an interactive bar chart & line graph that display four genres (electronic, hip-hip, pop, and rock). These charts use SQL language in Python via [ reason ].
+      Each chart is an interactive bar chart & line graph that display [ features ]. These charts use SQL language in Python via [ reason ].
       Chart.js is a library that creates visualizations and features [ insert features from it ]. Axios is a library that pulls the request through an interactive API route
 
 ---Application One--- Josh
-      The dataset had 
-
-We chose these genres because [ reason ].
-
-
-a message to the groupchat
-1. -> send in the 2-4 sentencs about each dataset
-2. Hey! The Process&Cleanup and Visualization sections of the script are a bit bare. Feel free to add in notes or alter any parts. I just wrote some stuff but if you don't like it, feel free to edit it or add your own notes
-3. I'll retime it and cut it shorter to fit within the 10 minutes, so don't worry about length too much
-4. I'll try to make my part 2 minutes or less so that the considerations, process, and visualizations get a minute each at least. I can make it shorter if needed!
+      The dataset had 15 different genres listed, however we narrowed our analysis to focus on only four. These are rock, pop, electronic, and hip-hop. We chose these genres because [ reason ].
+      The first chart is an average of each metric, for each genre, 
+      There was a multitude of ways the songs were measured. Each genre has several different interactive charts that track dif
 
 
 
 
+
+
+OLD VERSION
 -----Visualization 1----
 genre -> average metric : change in metric over time for genre
 The first interactive set of charts has users select genre and then a metric 
@@ -71,12 +67,4 @@ might reflect popularity of certain genres over time ->
 
 -----Visualization 3----
 
-
------Visualization 4----
-
-
-
-interactive #2
-genre : count of songs over time 
-might reflect popularity of certain genres over time -> 
 
