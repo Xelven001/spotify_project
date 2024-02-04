@@ -1,0 +1,214 @@
+
+
+/* .chart-label {
+    margin: 10px; 
+    color: white; 
+
+}
+
+
+.chart-select {
+    margin: 10px; 
+    color: black; 
+
+} */
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff7f7;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    max-width: 1000px; 
+    background-color: #ccc;
+    width: 100%; 
+
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #1f1e1eba;
+    margin-top: 20px; 
+    font-size: 3em; 
+} */
+
+.chart-container  {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #1f1e1eba;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .team-container  {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #1f1e1eba;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+
+h2 {
+    text-align: center;
+    color: #206779;
+}
+#menu {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+    header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color:#38761d;
+        }
+
+        #team h2 {
+            color: #ffffff; /* Set your desired text color */
+            font-size: 2em; /* Increase font size for emphasis */
+            font-weight: bold; /* Set font weight for emphasis */
+            font-style: italic;
+            text-align: center; /* Center the text horizontally */
+            margin-bottom: 20px; /* Add some space below the heading */
+            text-decoration: underline; /* Underline the text */
+
+        }
+        
+        #team h3 {
+            color: #ffffff; /* Set your desired text color */
+            font-size: 1.5em; /* Set your desired font size */
+            font-weight: bold; /* Set font weight if needed */
+            /* text-align: center; */
+
+        }
+
+        #team p { 
+            color: white;
+            font-size: 1em;
+            /* text-align: center; */
+        }
+
+        /* #team ul { 
+            color: white;
+            font-size: 1.2em;
+  
+        } */
+
+        #team section { 
+            /* color: white;
+            font-size: 1.5em; */
+            text-align: center;
+        }
+
+        .team-container {
+            max-width: 1000px;
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: #1f1e1eba;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text content horizontally */
+        
+            /* Center the list items vertically */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* Style the list items */
+        .team-container ul {
+            list-style-type: none;
+            font-size: 1.3em;
+            padding: 0;
+            color: white;
+        }
+        
+        .team-container li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .text-container {
+            max-width: 1000px;
+            margin: auto;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: #1f1e1ed4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text content horizontally */
+
+            color: white;
+
+        }
+
+        

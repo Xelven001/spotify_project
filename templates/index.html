@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+<body>
+    
+    
+    <div id="common-container"></div>
+    <script src="{{ url_for('static', filename='common.js') }}"></script>
+
+    <div id = "text-container1" class ="text-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+    </div>
+
+<div id="chartContainer" class="chart-container">
+
+    <label for="genre" class = chart-label>Select Genre:</label>
+    <select id="genre" class = chart-select></select>
+
+    <label for="category">Select Category:</label>
+    <select id="category"></select>
+
+    <canvas id="barGraph"></canvas>
+</div>
+    
+<div id = "text-container2" class ="text-container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+</div>
+  
+</div>
+
+<div id="chartContainer2" class="chart-container">
+    <label for="genre2" class = chart-label>Select Genre:</label>
+    <select id="genre2" class = chart-select></select>
+
+
+    <canvas id="LineChart2"></canvas>
+</div>
+
+
+<div id = "text-container3" class ="text-container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+</div>
+
+<div id="chartContainer3" class="chart-container">
+    <label for="genre3" class = chart-label>Select Genre:</label>
+    <select id="genre3" class = chart-select></select>
+
+
+    <canvas id="LineChart3"></canvas>
+</div>
+
+<div id = "text-container4" class ="text-container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+</div>
+
+
+<div id="chartContainer4" class="chart-container">
+    
+    <label for="genre4" class = chart-label>Select Genre:</label>
+    <select id="genre4" class = chart-select></select>
+
+    <label for="category4">Select Category:</label>
+    <select id="category4"></select>
+
+    <canvas id="barGraph4"></canvas>
+</div>
+  
+
+
+
+
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+<script src="{{ url_for('static', filename='script2.js') }}"></script>
+<script src="{{ url_for('static', filename='script3.js') }}"></script>
+<script src="{{ url_for('static', filename='script4.js') }}"></script>
+
+
+
+
+</body>
+</html>

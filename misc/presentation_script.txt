@@ -1,0 +1,54 @@
+Presentation Script
+      prompt: write a narrative for each visualization -> what can say about each one, what they sat about music trends, what that means, analysis
+      notes: 10 minute long script -> time it
+             make an outline of the presentation, then write the script
+      canva -> https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019/data 
+
+version2
+-----Intro-----
+      Hello and welcome to our presentation, Spotify Data Visualizations. Our group focused on analyzing top music trends from between 1998 and 2020 and created an interactive website to display it. I'm {everyone introduces themselves}.
+(add a bit about how music changes over time and influecnes other music and with analysis can find what i spopoular, what works, etc)
+
+-----Project Goals-----
+      To begin, our data. We chose the dataset 'Top Hits Spotify from 2000-2019.' We chose this dataset because we believed it to be interesting to study music and its trends. 
+      Our main objective was to analyze the Spotify dataset and discern any notable patterns or trends from it. Music is well intertwined with society, and studying its trends over time might discern something or other. 
+      More specifically, we wanted to investigate quantitatively how genres differ. Qualitatively they differ based on sound, origin, theme. To study then quantitatively the dataset included measured variables. These include speechiness (words compared to non-word parts of a recording) or tempo (measured in beats per minute). With these quantitative variables we can mathmatecally analyze the data. 
+      We also were interested in investingating how explicit songs trended to be across time and genre, and which time or genre was more expplicit
+      Lastly, another investigation was how song duration tended to change across time and genre, as songs have a lot of variability in length. 
+      For all of this we generated interactive visualizations to communicate the trends.
+
+-----Data Sources-----
+      And here is our dataset, and the link via the Data science company Kaggle
+
+-----Considerations and Limitations-----
+      
+
+-----Data Process and Cleanup-----
+      how create database, how set it up, how transform it, clean up, 
+      javascript chartjs  
+
+-----Visualization 1----
+genre -> average metric : change in metric over time for genre
+The first interactive set of charts has users select genre and then a metric 
+it shows each genre and metric over to track changes in the genre over time
+music evolves and changes, what is 'pop' in the past is relative to its time -> show changes like duration
+can track evolutions in music over the past two decades -> music branches into different genres, or different genres are popular
+pop ->  a contemporary form of music that appeals to a very wide audience -> genre shifts from decade to decade 80s rock to 90s boybands 
+
+-----Visualization 2----
+interactive #2
+genre : count of songs over time 
+might reflect popularity of certain genres over time -> 
+
+
+-----Visualization 3----
+
+
+-----Visualization 4----
+
+
+
+interactive #2
+genre : count of songs over time 
+might reflect popularity of certain genres over time -> 
+
