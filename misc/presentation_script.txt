@@ -36,6 +36,14 @@ Presentation Script ver Epsilonδ
       As for the visualization, they are run through three seperate applications [ insert explanation about the applications ]
 
 ----Visualizations----- Carlos
+      The visualizations were created through three applications and established through chart.js [ explain about chart.js ]
+      Each chart is an interactive bar chart & line graph that display four genres (electronic, hip-hip, pop, and rock). These charts use SQL language in Python via [ reason ].
+      Chart.js is a library that creates visualizations and features [ insert features from it ]. Axios is a library that pulls the request through an interactive API route
+
+---Application One--- Josh
+      The dataset had 
+
+We chose these genres because [ reason ].
 
 
 a message to the groupchat
