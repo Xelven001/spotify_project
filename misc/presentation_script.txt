@@ -1,27 +1,39 @@
-Presentation Script
-      prompt: write a narrative for each visualization -> what can say about each one, what they sat about music trends, what that means, analysis
-      notes: 10 minute long script -> time it
-             make an outline of the presentation, then write the script
+Notes:
+      The visualizations should take 5 min (the app + carlos piece)
+      Everything else should take 5 min
       canva -> https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019/data 
 
-version2
------Intro-----
-      Hello and welcome to our presentation, Spotify Data Visualizations. Our group focused on analyzing top music trends from between 1998 and 2020 and created an interactive website to display it. I'm {everyone introduces themselves}.
-(add a bit about how music changes over time and influecnes other music and with analysis can find what i spopoular, what works, etc)
+To Do
+      make 3-4 sentences about each visualization -> first should be longest, then getting shorter for next few
 
------Project Goals-----
-      To begin, our data. We chose the dataset 'Top Hits Spotify from 2000-2019.' We chose this dataset because we believed it to be interesting to study music and its trends. 
-      Our main objective was to analyze the Spotify dataset and discern any notable patterns or trends from it. Music is well intertwined with society, and studying its trends over time might discern something or other. 
-      More specifically, we wanted to investigate quantitatively how genres differ. Qualitatively they differ based on sound, origin, theme. To study then quantitatively the dataset included measured variables. These include speechiness (words compared to non-word parts of a recording) or tempo (measured in beats per minute). With these quantitative variables we can mathmatecally analyze the data. 
-      We also were interested in investingating how explicit songs trended to be across time and genre, and which time or genre was more expplicit
-      Lastly, another investigation was how song duration tended to change across time and genre, as songs have a lot of variability in length. 
-      For all of this we generated interactive visualizations to communicate the trends.
 
------Data Sources-----
-      And here is our dataset, and the link via the Data science company Kaggle
 
------Considerations and Limitations-----
-      
+Presentation Script ver Epsilonδ
+
+-----Intro----- Jackie
+      Hello and welcome to our presentation, Spotify Data Visualizations. Our group studied trends in four music genres between 1998 and 2020, then created an interactive website to display our findings. Hello, I'm Jacqueline, (everyone introduces themselves)
+      We chose this topic because music is an integral part of our society that reflects and influences culture. Our presentation is a small glimpse into some of the music trends that have occurred in the past two decades. 
+
+-----Data Sources----- Jackie
+      We used 'Top Hits Spotify from 2000-2019' from Kaggle for our analysis. This dataset has statistics of the top 2,000 tracks from between 1998 and 2020. It contains 18 columns that breaka down each track, such as song duration, tempo (aka beats per minute or bpm), and loudness (measured in decibles).
+
+-----Project Goals----- Jackie
+      To begin, our overall objective was to analyze the dataset for patterns and trends. What was the data saying by itself before we looked for specific metrics? Did anything stand out? We used the variables provided, such as speechiness, acousticness, energy, etcetera and grouped them by year and genre. 
+      Our question was, how did the genres change over time, and what changed? Was it loudness? Energy? Danceability? Pop music from 2000 and 2020 are very distinct styles. While 'style' isn't measurable, factors like loudness and duration are, and can be analyzed over time. 
+      We also were interested on the content of the songs and how they change through the years. Are song durations changing? What about songs being explicit? Between genres, which were explicit? Which had longer songs? 
+      Our last goal was to create interactive visualizations to show off our findings.
+
+-----Considerations and Limitations----- Madison
+      The data, however, is imperfect and limitations should be acknowledged.
+      For example, the data is limited in size. The dataset contains 2000 songs, which may not be representative of the entire Spotify catalog. Also, the data is not spread evenly across time. Generalizations should be made cautiously.
+      The dataset also groups many genres together, and may not cover all genres or sub-genres, potentially limiting the diversity of the analysis. For example, differences between metal and pop rock are not accounted for, and are grouped together. 
+      There also exists cultural shifts, as mentioned before, music changes over time as musical tastes and genres evolve. The analysis has to be mindful of cultural shifts and how they may impact the characteristics of the songs over the years.
+      Another factor to consider are qualitaive aspects  of a song's appeal, such as lyrics or cultural context. This could limit the depth of analysis because they are not numerical factors.
+      Lastly, this dataset only lists 'top' songs, and might not capture individual user preferences or the influence of social networks on music choices. 
+
+
+
+
 
 -----Data Process and Cleanup-----
       how create database, how set it up, how transform it, clean up, 
