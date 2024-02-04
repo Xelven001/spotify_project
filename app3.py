@@ -39,14 +39,10 @@ def get_data():
 
     data = cursor.fetchall()
 
-    # Get column names from the cursor description
     columns = [column[0] for column in cursor.description]
 
-    # Close the database connection
     connection.close()
 
-    # Convert data to a list of dictionaries
     result = [dict(zip(columns, row)) for row in data]
 
-    # Return data as JSON
     return jsonify(result)
