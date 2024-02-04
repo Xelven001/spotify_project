@@ -2,7 +2,6 @@ Notes:
       The visualizations should take 5 min (the app + carlos piece)
       Everything else should take 5 min
       canva -> https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019/data 
-
 To Do
       make 3-4 sentences about each visualization -> first should be longest, then getting shorter for next few
 
@@ -31,13 +30,22 @@ Presentation Script ver Epsilonδ
       Another factor to consider are qualitaive aspects  of a song's appeal, such as lyrics or cultural context. This could limit the depth of analysis because they are not numerical factors.
       Lastly, this dataset only lists 'top' songs, and might not capture individual user preferences or the influence of social networks on music choices. 
 
+-----Data Process and Cleanup----- Josh
+      The data was stored and extracted from a SQL base. SQLite was used to manipulate the data and create the queries needed for analysis and visualization. The data was created by [ explanation ] and set up [ explanation ], then the data was transformed by [ explanation ]. The data was also cleaned by dropping duplicates, grouping it by genre, and [ other cleanup methods ].
+      With HTML, we decided on using Chart.js and Axios becayse [ insert good quality about each of them ]. Flask was used for querying [ insert other reason ]
+      As for the visualization, they are run through three seperate applications [ insert explanation about the applications ]
+
+----Visualizations----- Carlos
+
+
+a message to the groupchat
+1. -> send in the 2-4 sentencs about each dataset
+2. Hey! The Process&Cleanup and Visualization sections of the script are a bit bare. Feel free to add in notes or alter any parts. I just wrote some stuff but if you don't like it, feel free to edit it or add your own notes
+3. I'll retime it and cut it shorter to fit within the 10 minutes, so don't worry about length too much
+4. I'll try to make my part 2 minutes or less so that the considerations, process, and visualizations get a minute each at least. I can make it shorter if needed!
 
 
 
-
------Data Process and Cleanup-----
-      how create database, how set it up, how transform it, clean up, 
-      javascript chartjs  
 
 -----Visualization 1----
 genre -> average metric : change in metric over time for genre
