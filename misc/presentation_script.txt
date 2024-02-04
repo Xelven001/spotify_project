@@ -50,7 +50,7 @@ Presentation Script ver Epsilonδ
 
 
 
-OLD VERSION
+OLD VERSION PLS IGNORE
 -----Visualization 1----
 genre -> average metric : change in metric over time for genre
 The first interactive set of charts has users select genre and then a metric 
@@ -61,10 +61,13 @@ pop ->  a contemporary form of music that appeals to a very wide audience -> gen
 
 -----Visualization 2----
 interactive #2
-genre : count of songs over time 
+genre : count of explicit songs over time 
 might reflect popularity of certain genres over time -> 
 
 
 -----Visualization 3----
+song duration over time
+overall songs get shorter
+electronic has outliers -> rest are steady down trends 
 
 
