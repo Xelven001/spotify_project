@@ -69,9 +69,9 @@ function updateBarGraph() {
                                 display: true,
                                 text: 'Year'
                             },
-                            ticks: {
-                                precision: 0, // Trying to fix date issue showing as 1,999 vs 1999
-                            }
+                            // ticks: {
+                            //     precision: 0, // Trying to fix date issue showing as 1,999 vs 1999
+                            // }
                         },
                         
                         y: {
