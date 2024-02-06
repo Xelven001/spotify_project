@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 beginAtZero: true,
                                 title: {
                                     display: true,
-                                    text: 'Lenght of Songs(Seconds)'
+                                    text: 'Length of Songs(Seconds)'
                                 }
                             }
                         }
