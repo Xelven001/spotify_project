@@ -11,6 +11,7 @@ Presentation Script ver Zetaζ
 
 -----Intro----- Jackie
       Hello and welcome to our presentation, Spotify Data Visualizations. Our group studied trends in four music genres from between 1998 and 2020, then created an interactive website to display our findings. Hello, I'm Jacqueline and these are my groupmates (everyone introduces themselves)
+      We will share the link to the website so everyone can check it out.
       We chose this topic because music is an integral part of society that reflects and influences culture. Our presentation is a small glimpse into some of the music trends that have occurred in the past two decades. 
 
 -----Data Sources----- Jackie
@@ -49,8 +50,9 @@ Presentation Script ver Zetaζ
       The second visualization charts the count of explicit songs over time.
 
 ---Application Three--- Jackie
-      The last visualiation tracks song duration over time. Over time, hip-hop, rock, and pop have all declined from about 250 seconds in 2000 to around 200 seconds in 2020. This is about 50 seconds shorter
-      Electronic music, however, is itself a notable outlier. In 2000, the songs averaged 450 seconds. Between 200 and 2010 there wwas a rise and fall of song lengths. After 2010 it seems to have smoothed out to normal fluctuations. This makes future song lengths unpredictable.
+      The last visualiation tracks average song duration over time. Hip-hop, rock, and pop have all declined from about 250 seconds in 2000 to around 200 seconds in 2020. This translates to songs being roughly 50 seconds shorter across these three genres. 
+      Electronic music, however, is itself a notable outlier. In 2000, electronic songs averaged 450 seconds. Between 2000 and 2010 there was a random up and down of song lengths. After 2010 it fluctuated less drastically. However, it still went up and down. For electronic, it seems there is no discernable pattern.
+      Returning back to the first charts, they do demonstrate a decline in song length. This could mean that thes genres are trending to have shorter songs for their audiences
 
 ---Conclusion--- Carlos
 
