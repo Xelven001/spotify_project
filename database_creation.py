@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-df = pd.read_csv("../project3/data/songs_normalize.csv")
+df = pd.read_csv("/data/songs_normalize.csv")
 connection = sqlite3.connect("spotify_data.db")
 cursor = connection.cursor()
 
