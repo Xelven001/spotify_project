@@ -7,38 +7,41 @@ To Do
 
 
 
-Presentation Script ver Epsilonδ
+Presentation Script ver Zetaζ
 
 -----Intro----- Jackie
-      Hello and welcome to our presentation, Spotify Data Visualizations. Our group studied trends in four music genres between 1998 and 2020, then created an interactive website to display our findings. Hello, I'm Jacqueline, (everyone introduces themselves)
-      We chose this topic because music is an integral part of our society that reflects and influences culture. Our presentation is a small glimpse into some of the music trends that have occurred in the past two decades. 
+      Hello and welcome to our presentation, Spotify Data Visualizations. Our group studied trends in four music genres from between 1998 and 2020, then created an interactive website to display our findings. Hello, I'm Jacqueline (everyone introduces themselves)
+      We chose this topic because music is an integral part of society that reflects and influences culture. Our presentation is a small glimpse into some of the music trends that have occurred in the past two decades. 
 
 -----Data Sources----- Jackie
-      We used 'Top Hits Spotify from 2000-2019' from Kaggle for our analysis. This dataset has statistics of the top 2,000 tracks from between 1998 and 2020. It contains 18 columns that break down each track, such as song duration, tempo (aka beats per minute or bpm), and loudness (measured in decibles).
+      We used 'Top Hits Spotify from 2000-2019' from Kaggle for our analysis. This dataset has statistics of the top 2,000 tracks from between 1998 and 2020. It contains 18 columns that break down each track with traits such as song duration, tempo (aka beats per minute), and loudness (measured in decibles)
 
 -----Project Goals----- Jackie
-      To begin, our overall objective was to analyze the dataset for patterns and trends. What was the data saying by itself before we looked for specific metrics? Did anything stand out? We used the variables provided, such as speechiness, acousticness, energy, etcetera and grouped them by year and genre. 
-      Our question was, how did the genres change over time, and what changed? Was it loudness? Energy? Danceability? Pop music from 2000 and 2020 are very distinct styles. While 'style' isn't measurable, factors like loudness and duration are, and can be analyzed over time. 
-      We also were interested on the content of the songs and how they change through the years. Are song durations changing? What about songs being explicit? Between genres, which were explicit? Which had longer songs? 
-      Our last goal was to create interactive visualizations to show off our findings.
+      To begin, our overall objective was to analyse the dataset for any notable patterns and trends. What was the data saying by itself before we looked for specific metrics? Did anything stand out? We used the variables provided, such as speechiness, acousticness, energy, etcetera and grouped them by genre. Then, they were charted by year.
+      Our question was, how did the genres change over time, and what changed? Was it loudness? Energy? Danceability? Pop songs from 2000 and 2020 have very distinct styles. While 'style' isn't measurable, factors such as loudness and duration are, and can be charted over time
+      We were also interested in the content of the songs and how it changes through the years. Are song durations changing? What about songs being explicit? Between genres, which were explicit? Which had longer songs?
+      Our last goal was to create interactive visualizations to show off our findings. 
 
 -----Considerations and Limitations----- Madison
-      The data, however, is imperfect and limitations should be acknowledged.
-      For example, the data is limited in size. The dataset contains 2000 songs, which may not be representative of the entire Spotify catalog. Also, the data is not spread evenly across time. Generalizations should be made cautiously.
-      The dataset also groups many genres together, and may not cover all genres or sub-genres, potentially limiting the diversity of the analysis. For example, differences between metal and pop rock are not accounted for, and are grouped together. 
-      There also exists cultural shifts, as mentioned before, music changes over time as musical tastes and genres evolve. The analysis has to be mindful of cultural shifts and how they may impact characteristics of the songs over the years.
-      Another factor to consider are qualitaive aspects  of a song's appeal, such as lyrics or cultural context. This could limit the depth of analysis because they are not numerical factors.
-      Lastly, this dataset only lists 'top' songs, and might not capture individual user preferences or the influence of social networks on music choices. 
+      Nevertheless, the data is imperfect and its limitations should be acknowledged.
+      Firstly, the data is limited in size. The dataset contains 2000 songs, which may not be representative of the entire Spotify catalog. Its also not spread evenly across time. Generalizations should be made cautiously.
+      The dataset also groups many genres together, and may not cover all genres or sub-genres, potentially limiting the diversity of the analysis. For example, differences in rock subgenres like pop and metal are lumped together. 
+      Culture also shifts as music changes and genres evolve. The analysis has to be mindful of cultural shifts and how they may impact characteristics of songs over the years. 
+      Metadata limitations should also be considered. Some aspects of a song's appeal, such as lyrics or cultural context, may not be adequately captured by the provided metadata. This could limit the depth of analysis.
+      Lastly, The dataset might not capture individual user preferences or how social media influences a song's or genre's popularity
 
 -----Data Process and Cleanup----- Josh
-      The data was stored and extracted from a SQL base. SQLite was used to manipulate the data and create the queries needed for analysis and visualization. The data was created by [ explanation ] and set up [ explanation ], then the data was transformed by [ explanation ]. The data was also cleaned by dropping duplicates, grouping it by genre, and [ other cleanup methods ].
-      With HTML, we decided on using Chart.js and Axios becayse [ insert good quality about each of them ]. Flask was used for querying [ insert other reason ]
-      As for the visualization, they are run through three seperate applications [ insert explanation about the applications ]
+      The data was stored and extracted from a SQL database. SQLite was used to manipulate the data and create the queries needed for analysis and visualization. The data was [ extraction from Kaggle ] and set up [ explanation ]. Then was cleaned by dropping duplicates, grouping the data by genre, and [ other cleanup methods ]
+      As for the HTML side, we decided on using Chart.js and Axios because [ insert good quality about each of them ]. Flask was used for querying because [ reason ]
+      As for the visualizations, each chart is run through its own application [ explanation about the applications ]
 
 ----Visualizations----- Carlos
-      The visualizations were created through three applications and established through chart.js [ explain about chart.js ]
-      Each chart is an interactive bar chart & line graph that display [ features ]. These charts use SQL language in Python via [ reason ].
-      Chart.js is a library that creates visualizations and features [ insert features from it ]. Axios is a library that pulls the request through an interactive API route
+      The visualizations were created through their own applications and established through Chart.js by [ explain about chart.js ]
+      Each chart is an interactive bar chart or line graph that display [ features ]. These charts use SQL in Python via [ reason ]
+      Chart.js is a library that creates visualizations and features [ insert notable features ]. Axios is another library that pulls the request through an interactive API route
+
+
+
 
 ---Application One--- Josh
       The dataset had 15 different genres listed, however we narrowed our analysis to focus on only four. These are rock, pop, electronic, and hip-hop. We chose these genres because [ reason ].
