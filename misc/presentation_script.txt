@@ -10,7 +10,7 @@ To Do
 Presentation Script ver Zetaζ
 
 -----Intro----- Jackie
-      Hello and welcome to our presentation, Spotify Data Visualizations. Our group studied trends in four music genres from between 1998 and 2020, then created an interactive website to display our findings. Hello, I'm Jacqueline (everyone introduces themselves)
+      Hello and welcome to our presentation, Spotify Data Visualizations. Our group studied trends in four music genres from between 1998 and 2020, then created an interactive website to display our findings. Hello, I'm Jacqueline and these are my groupmates (everyone introduces themselves)
       We chose this topic because music is an integral part of society that reflects and influences culture. Our presentation is a small glimpse into some of the music trends that have occurred in the past two decades. 
 
 -----Data Sources----- Jackie
@@ -49,25 +49,9 @@ Presentation Script ver Zetaζ
       The second visualization charts the count of explicit songs over time.
 
 ---Application Three--- Jackie
-      The last visualiation tracks song duration over time. Over time, hip-hop, rock, and pop have all declined around 250 seconds (or about 4 minutes) to around 200 seconds (about 3 minutes 20 seconds)
+      The last visualiation tracks song duration over time. Over time, hip-hop, rock, and pop have all declined from about 250 seconds in 2000 to around 200 seconds in 2020. This is about 50 seconds shorter
+      Electronic music, however, is itself a notable outlier. In 2000, the songs averaged 450 seconds. Between 200 and 2010 there wwas a rise and fall of song lengths. After 2010 it seems to have smoothed out to normal fluctuations. This makes future song lengths unpredictable.
 
 ---Conclusion--- Carlos
-
-
-      _> what metrics want to talk about
-music evolves and changes, what is 'pop' in the past is relative to its time -> show changes like duration
-can track evolutions in music over the past two decades -> music branches into different genres, or different genres are popular
-pop ->  a contemporary form of music that appeals to a very wide audience -> genre shifts from decade to decade 80s rock to 90s boybands 
-
------Visualization 2----
-interactive #2
-genre : count of explicit songs over time 
-might reflect popularity of certain genres over time -> 
-
-
------Visualization 3----
-song duration over time
-overall songs get shorter
-electronic has outliers -> rest are steady down trends 
 
 
