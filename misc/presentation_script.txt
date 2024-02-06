@@ -40,24 +40,21 @@ Presentation Script ver Zetaζ
       Each chart is an interactive bar chart or line graph that display [ features ]. These charts use SQL in Python via [ reason ]
       Chart.js is a library that creates visualizations and features [ insert notable features ]. Axios is another library that pulls the request through an interactive API route
 
-
-
-
 ---Application One--- Josh
-      The dataset had 15 different genres listed, however we narrowed our analysis to focus on only four. These are rock, pop, electronic, and hip-hop. We chose these genres because [ reason ].
-      The first chart is an average of each metric, for each genre, 
-      There was a multitude of ways the songs were measured. Each genre has several different interactive charts that track dif
+      The dataset had 15 different music genres listed, however the analysis was narrowed to focus on only four genres. These are rock, pop, electronic, and hip-hop. They were chosen because [ reason ]
+      The first visualization displays the average of each metric for each genre across time. Users select a genre, then which metric they'd like to see. Being able to track these averages through time allows us to see the physical changes in how songs are as genres evolve. 
+      Some metrics, such as song duration, have  over time (show song duration)
+
+---Application Two--- Madison
+      The second visualization charts the count of explicit songs over time.
+
+---Application Three--- Jackie
+      The last visualiation tracks song duration over time. Over time, hip-hop, rock, and pop have all declined around 250 seconds (or about 4 minutes) to around 200 seconds (about 3 minutes 20 seconds)
+
+---Conclusion--- Carlos
 
 
-
-
-
-
-OLD VERSION PLS IGNORE
------Visualization 1----
-genre -> average metric : change in metric over time for genre
-The first interactive set of charts has users select genre and then a metric 
-it shows each genre and metric over to track changes in the genre over time
+      _> what metrics want to talk about
 music evolves and changes, what is 'pop' in the past is relative to its time -> show changes like duration
 can track evolutions in music over the past two decades -> music branches into different genres, or different genres are popular
 pop ->  a contemporary form of music that appeals to a very wide audience -> genre shifts from decade to decade 80s rock to 90s boybands 
